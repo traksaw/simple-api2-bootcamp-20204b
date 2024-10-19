@@ -1,0 +1,78 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat;
+  font-family: "Noto Serif JP", serif;
+  color: black;
+}
+body {
+  background-color: white;
+}
+
+
+.introSection,
+#dishTitle,
+#dishServings {
+  text-align: center;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 1024px) {
+  .introSection > h1 {
+    font-size: 58px;
+  }
+  .introSection > p,
+  .introSection > input {
+    font-size: 28px;
+  }
+  #dishTitle {
+    font-size: 38px;
+  }
+  #dishIngredients {
+    font-size: 34px;
+  }
+  #dishInstructions {
+    font-size: 48px;
+  }
+  #dishServings {
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width: 375px) {
+  .introSection > h1 {
+    font-size: 68px;
+  }
+  .introSection > p,
+  .introSection > input {
+    font-size: 38px;
+  }
+  #dishTitle {
+    font-size: 48px;
+  }
+  #dishIngredients {
+    font-size: 28px;
+  }
+  #dishInstructions {
+    font-size: 48px;
+  }
+  #dishServings {
+    font-size: 30px;
+  }
+  
+}
