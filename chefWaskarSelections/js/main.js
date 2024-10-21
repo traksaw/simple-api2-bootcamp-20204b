@@ -1,3 +1,4 @@
+import { apiKey } from "./apiKeys.js";
 document.querySelector('#btnInput').addEventListener('click',getMeFood)
 
 function getMeFood(){
